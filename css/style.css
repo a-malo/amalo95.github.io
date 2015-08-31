@@ -7,20 +7,40 @@
 }
 
 #home .jumbotron{
- /*background-color: #B23B2F;*/ 
-   background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background: rgba(200, 54, 54, 0); 
-   /*last number is opacity */
-}
+  /*Alpha transparent background on top of homeimage*/
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0); 
+   }
 
 #about {
-	background-color: #6D88A6;
+	background-color: #B2C9E2;
 	padding: 40px 15px;
+}
+
+#experience {
+	padding: 40px 15px;
+  background-color: #DCDCDC;
+}
+
+#contact {
+  padding: 40px 15px;
+  background-color: #FFFFFF;
+}
+
+.icons {
+  color: #337ab7;
 }
 
 .pic {
 	display:block;
     margin:auto;
+    height: 50%;
+    width: 50%;
+}
+
+.fontAwe {
+    font-size: 100px;
+    text-align: center;
 }
 
 .horizAlign div {

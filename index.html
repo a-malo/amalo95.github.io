@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <meta name="description" content="">
+    <meta name="description" content="">
     <meta name="author" content="Agustin Malo">
     <link rel="icon" href="favicon.ico">
 
     <title>Agustin Malo</title>
     
-    <!--jQuery!!!-->
+    <!--jQuery!!! Not sure if im even using it for this simple web page but...-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
     <!--BOOTSTRAP!!!-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!--FONTAWESOME!!!-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!--Custom CSS!!!-->
   <link rel="stylesheet" href="css/style.css">
@@ -31,7 +34,7 @@
 
 <!-- NAVBAR
 ================================================== -->
-  <body data-spy="scroll" data-target=".navbar">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <div class="navbar-wrapper">
       <div class="container">
@@ -45,12 +48,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#">AM</a>
+              <a class="navbar-brand" href="#home">AM</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact Me</a></li>
               </ul>
             </div>
@@ -65,7 +69,7 @@
         <div class="container">
           <h1 class="whiteShadow">Agustin Malo</h1>
 
-          <h3 class='lead whiteShadow'>Software Developer @ The University of Florida.</h3>
+          <h3 class='lead whiteShadow'>Software Developer @ the University of Florida.</h3>
 
         </div>
       </div>
@@ -80,19 +84,69 @@
           </div>
           <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 lead" >
 
-            <p>My name is Agustin, I'm studying Computer Engineering at the University of Florida.</p>
-            <p>When I'm not out there coding to save the world, I enjoy playing different sports, eating food, and drinking coffee.</p>
+            <p>My name is Agustin, I'm a junior at the University of Florida studying Computer Engineering.</p>
+            <p>When I'm not out there coding to save the world, I enjoy playing sports, eating food, and drinking coffee.</p>
             <p>If you're a sports fan or listen to Indie/Alternative music, we are going to get along just fine.</p>
           </div>
         </div>
       </div>
 </section>
 
+<section id="experience">
+      <div class="container">
+        <h2 class="textCenter featurette-heading" style="padding-bottom: 40px;"> Experience:</h2>
+           <div class="row horizAlign">
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <img src="images/ibm2.jpg"  class="img-responsive img-rounded pic">
+                <h3 class="textCenter">Watson Software Engineering Intern</h2>
+                <p class="textCenter">Developed a vizualization tool in the Watson for Oncology application.</p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <img src="images/apple.png"  class="img-responsive img-rounded pic">
+                <h3 class="textCenter">At-Home Advisor</h2>
+                <p class="textCenter">Provided customers with award-winning customer service experience.</p>
+              </div>
+              <div class="col-lg-4 col-md-4 col-xs-12">
+                <img src="images/uf.png"  class="img-responsive img-rounded pic">
+                <h3 class="textCenter">UAA Math Tutor</h2>
+                <p class="textCenter">Tutored and mentored student-athletes.</p>
+              </div>
+           </div>
+      </div>
+</section>
 
+<section id="contact">
+      <div class="container">
+        <h2 class="textCenter featurette-heading" style="padding-bottom: 40px;"> Contact Me:</h2>
+           <div class="row horizAlign">
+              <div class="col-lg-3 col-md-3 col-xs-12">
+                <i class="fa fa-envelope-o fontAwe pic icons"></i>
+                <h3 class="textCenter">E-Mail</h2>
+                <p class="textCenter">agustinmalo (at) icloud.com</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-xs-12">
+                <a href="https://www.linkedin.com/pub/agustin-malo/ba/11a/a6b" class="fa fa-linkedin-square fontAwe pic icons"></a>
+                <h3 class="textCenter">LinkedIn</h2>
+                <p class="textCenter">Connect with me @ LinkedIn</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-xs-12">
+                <a href="https://github.com/amalo95" class="fa fa-github fontAwe pic icons"></a>
+                <h3 class="textCenter">Github</h2>
+                <p class="textCenter">Check out the source for this web page and other projects I've worked on.</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-xs-12">
+                <a href="files/Resume_AgustinMalo.pdf" class="fa fa-file-text-o fontAwe pic icons"></a>
+                <h3 class="textCenter">R&eacute;sum&eacute;</h2>
+                <p class="textCenter">A link to the latest version of my R&eacute;sum&eacute;.</p>
+              </div>
+           </div>
+      </div>
+</section>
       <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="fsdfss">Back to top</a></p>
-        <p>&copy; 2015 Agustin Malo &middot; <a href="sdfsd">Privacy</a> &middot; <a href="fsfsd">Terms</a></p>
+      <footer class="container">
+
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 Agustin Malo &middot; University of Florida</p>
       </footer>
     
   </body>
