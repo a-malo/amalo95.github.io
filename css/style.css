@@ -1,9 +1,11 @@
+
+/*home backgorund page */
 #home {
 	background-image: url(/images/bhgs.jpg); 
 	background-size: cover;
 	height: 100vh;
 	padding: 40px 15px;
-    text-align: center;
+  text-align: center;
 }
 
 #home .jumbotron{
@@ -12,16 +14,25 @@
    background: rgba(0, 0, 0, 0); 
    }
 
+/*about backgorund page */
 #about {
 	background-color: #B2C9E2;
 	padding: 40px 15px;
 }
 
+/*exp backgorund page */
 #experience {
 	padding: 40px 15px;
   background-color: #DCDCDC;
 }
 
+/*tech backgorund page */
+#tech {
+  padding: 40px 15px;
+  background-color: #E5FFF1;
+}
+
+/*contact backgorund page */
 #contact {
   padding: 40px 15px;
   background-color: #FFFFFF;
@@ -31,6 +42,7 @@
   color: #337ab7;
 }
 
+/*centers page */
 .pic {
 	display:block;
     margin:auto;
@@ -38,6 +50,7 @@
     width: 50%;
 }
 
+/*makes font awesome icons the right size */
 .fontAwe {
     font-size: 100px;
     text-align: center;
@@ -52,10 +65,9 @@
 	text-align: center;
 }
 
-.whiteShadow {
-	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-}
 
+
+/*CSS FOR TRANSPARENT NAV BAR!!!*/
 .navbar-custom {
   background-color: rgba(34, 34, 34, 0.2);
   border-color: rgba(8, 8, 8, 0.2);
@@ -176,14 +188,6 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 .navbar-custom .navbar-nav > li > a {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
 }
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-  padding-bottom: 40px;
-}
-
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -208,50 +212,6 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
-}
-
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
-
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
 }
 
 
@@ -304,5 +264,8 @@ body {
   }
 }
 
+.whiteShadow {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 white, 0 -1px white;
+}
 
 
