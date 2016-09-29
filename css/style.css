@@ -1,7 +1,7 @@
 
 /*home backgorund page */
 #home {
-	background-image: url(/images/bhgs.jpg); 
+	background-image: url(/images/mountains.jpg);
 	background-size: cover;
 	height: 100vh;
 	padding: 40px 15px;
@@ -11,7 +11,7 @@
 #home .jumbotron{
   /*Alpha transparent background on top of homeimage*/
    background: rgb(0, 0, 0);
-   background: rgba(0, 0, 0, 0); 
+   background: rgba(0, 0, 0, 0);
    }
 
 /*about backgorund page */
@@ -58,7 +58,7 @@
 
 .horizAlign div {
   float: left;
-  clear: none; 
+  clear: none;
 }
 
 .textCenter {
@@ -267,5 +267,3 @@ fieldset[disabled] .navbar-custom .btn-link:focus {
 .whiteShadow {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 white, 0 -1px white;
 }
-
-
